@@ -1,8 +1,8 @@
 package com.sinosoft.one.scheduler.service;
 
-import com.sinosoft.one.schedule.model.Log;
-import com.sinosoft.one.schedule.repository.LogRepository;
-import com.sinosoft.one.schedule.service.MailService;
+import org.one.schedule.model.Log;
+import org.one.schedule.repository.LogRepository;
+import org.one.schedule.service.MailService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

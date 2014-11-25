@@ -10,9 +10,9 @@
     <!-- 业务对象 -->
 
     <!-- 调度业务 -->
-    <bean id="heartBeat" class="com.sinosoft.one.schedule.controllers.quartztask.HeartBeat"> </bean>
-    <bean id="taskGetJobAndTrigger" class="com.sinosoft.one.schedule.controllers.quartztask.TaskGetJobAndTrigger"> </bean>
-    <bean id="mailTask" class="com.sinosoft.one.schedule.controllers.quartztask.MailTask"/>
+    <bean id="heartBeat" class="org.one.schedule.controllers.quartztask.HeartBeat"> </bean>
+    <bean id="taskGetJobAndTrigger" class="org.one.schedule.controllers.quartztask.TaskGetJobAndTrigger"> </bean>
+    <bean id="mailTask" class="org.one.schedule.controllers.quartztask.MailTask"/>
 
 	<bean id="jobDetail"
         class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  

@@ -1,21 +1,16 @@
 package com.sinosoft.one.scheduler.jmx;
 
-import com.sinosoft.one.schedule.jmx.Communication;
-import com.sinosoft.one.schedule.model.App;
-import com.sinosoft.one.schedule.model.Job;
-import com.sinosoft.one.schedule.model.Trigger;
-import com.sinosoft.one.schedule.service.AppService;
+import org.one.schedule.jmx.Communication;
+import org.one.schedule.model.App;
+import org.one.schedule.model.Job;
+import org.one.schedule.model.Trigger;
+import org.one.schedule.service.AppService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.util.Assert;
 
-import javax.management.InstanceNotFoundException;
-import javax.management.MBeanException;
-import javax.management.ReflectionException;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
 
